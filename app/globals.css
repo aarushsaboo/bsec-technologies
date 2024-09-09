@@ -18,10 +18,12 @@
 }
 
 body{
-font-family: "Darker Grotesque";
-/* font-size: 47px; */
-font-style: normal;
-/* font-weight: 800; */
+  font-family: "Darker Grotesque";
+  /* font-size: 47px; */
+  font-style: normal;
+  /* font-weight: 800; */
+  margin: 0;
+  padding: 0;
 }
 
 h1{

@@ -1,7 +1,47 @@
-
 /* ----Home---- */
-.home{
-  background-color:rgb(249, 244, 222);
-  
+.home {
+  background-color: rgb(249, 244, 222);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
 }
 
+.navbarWrapper {
+  z-index: 10;
+  position: relative;
+}
+.navbarWrapper::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(249, 244, 222, 0.7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.home1 {
+  position: absolute;
+  top: -50.1px;
+  left: 183.1px;
+  z-index: 1;
+}
+
+.home2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.home3 {
+  position: absolute;
+  bottom: 0;
+  left: 283px;
+}
+
+.home4 {
+  position: absolute;
+  left: 643.74px;
+  bottom: 0;
+}

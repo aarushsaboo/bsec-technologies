@@ -1,0 +1,200 @@
+.platforms {
+  background-color: rgb(249, 244, 222);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarWrapper {
+  position: absolute;
+  background-color: rgba(249, 244, 222, 0.7);
+}
+
+.platforms1 {
+  position: absolute;
+  top: 151px;
+  left: 91.21px;
+  z-index: 6;
+}
+
+.platforms2 {
+  position: absolute;
+  top: 392px;
+  left: 103px;
+  z-index: 7;
+}
+
+.platforms3 {
+  position: absolute;
+  top: 252px;
+  left: 180px;
+  z-index: 8;
+  /* bottom: px; */
+}
+
+.platforms4 {
+  position: absolute;
+  top: 319px;
+  left: 218px;
+  z-index: 5;
+}
+
+/* ---not used gradient--- */
+.gradientContainer {
+  width: 528px;
+  height: 743px;
+  background: radial-gradient(closest-side, #2f4f4f, #ebf8e1 18%, #2f4f4f 49%);
+}
+
+.enhancedGradientContainer {
+  width: 528px;
+  height: 743px;
+  background: radial-gradient(
+      ellipse at top left,
+      /* rgba(47, 79, 79, 0.8) 10%, */ /* rgba(235, 248, 225, 0.6) 25%, */
+        rgba(47, 79, 79, 0.7) 50%,
+      rgba(235, 248, 225, 0.5) 75%,
+      rgba(47, 79, 79, 0.9) 100%
+    ),
+    radial-gradient(closest-side, #2f4f4f, #ebf8e1 18%, #2f4f4f 49%);
+  position: relative;
+  overflow: hidden;
+}
+
+.enhancedGradientContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%' height='100%' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+}
+
+/* flex container  */
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.login {
+  margin-left: 100px;
+  margin-top: 195px;
+}
+
+/*login*/
+.h1 {
+  /* color: yellowgreen; */
+  /* font-size: 46px; */
+  color: var(--yellow, #a8890e);
+  font-family: "Camera Obscura";
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 54.05px; /* 85.794% */
+  letter-spacing: 5.04px;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.h3 {
+  /* color: green; */
+  color: var(--Green, #6b8e23);
+
+  /* BODY 1 */
+  font-family: "Roboto Slab";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 152.174% */
+  margin-top: 0;
+  padding-top: 0;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.button1 {
+  background: var(--Green, #6b8e23);
+  color: white;
+  border: 1px solid var(--Green, #6b8e23);
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.button2 {
+  background-color: white;
+  border: 1px solid var(--Green, #6b8e23);
+  color: var(--Green, #6b8e23);
+  padding: 10px 20px;
+}
+.button1:hover {
+  padding-right: 27px;
+}
+
+/* ----about-page---- */
+.aboutPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: var(--yellow, #a8890e);
+  padding: 30px 130px;
+}
+
+.aboutHeading1 {
+  color: var(--Cream, #f3f3f3);
+
+  /* PXSMALL */
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px; /* 150% */
+  margin: 0;
+}
+
+.aboutHeading2 {
+  color: var(--Cream, #f3f3f3);
+
+  /* h3 */
+  font-family: "Darker Grotesque";
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 37.95px; /* 115% */
+  margin: 0;
+}
+
+.aboutP {
+  padding: 20px 0;
+  margin: 0;
+  color: var(--Cream, #f3f3f3);
+  text-align: center;
+
+  /* BODY 1 */
+  font-family: "Roboto Slab";
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px; /* 152.174% */
+}
+
+/* sponsors */
+.sponsorsImageContainer {
+  background: rgba(243, 243, 243, 0.6);
+  /* width: 100%;
+  margin: 0 auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 64px 128px;
+}
+
+.sponsorsImage {
+  padding: 14px 28px;
+}
