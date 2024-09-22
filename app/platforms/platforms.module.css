@@ -1,8 +1,10 @@
 .platforms {
   background-color: rgb(249, 244, 222);
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbarWrapper {
@@ -286,6 +288,7 @@
   line-height: 19.5px; /* 150% */
   margin: 0;
   padding-top: 10px;
+  color: white;
 }
 
 .navigationHeading2 {
@@ -298,6 +301,7 @@
   font-weight: 500;
   line-height: 37.95px; /* 115% */
   margin: 0;
+  color: white;
 }
 
 .navigationContent {
@@ -312,14 +316,126 @@
   margin: 0;
   padding: 10px;
   width: 682px;
+  /* color: white; */
 }
 
 /* navigation images */
+.navigationImages{
+  height: 500px;
+}
 .navigation1 {
-  margin-left: 447px;
+  /* margin-right: 447px; */
+  margin-left: 847px;
+  z-index: 3;
 }
 
 .navigation2 {
+  transform: translateY(-570px);
+  /* transform: translateX(300px); */
+  margin-left: 1100px;
+  z-index: -2;
+  position: relative;
+}
+
+.clippedRectangle{
+  width: 100%;
+  height: 1100px;
+  clip-path: polygon(100% 0, 100% 90%,0% 100%, 0% 40%);
+  /* position: absolute; */
+  background: linear-gradient(to right, rgb(99, 145, 48), rgb(162, 139, 38));
+  z-index: -999;
   position: absolute;
-  margin-left: 20px;
+  /* transform: translateY(-173vh); */
+  top: 1630px;
+}
+
+/* steps*/
+.steps{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding-top: 0;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepsBtn{
+  width: 114px;
+  display: flex;
+padding: 10px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+  border-radius: 10px;
+background: var(--Green, #6B8E23);
+border: none;
+color: white;
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 152.174% */
+}
+
+/* steps main container  */
+.stepsMainContainer{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepsMainHeading{
+  color: var(--Green, #6B8E23);
+text-align: center;
+
+/* H1 MAIN LANDING PAGE */
+font-family: "Darker Grotesque";
+font-size: 47px;
+font-style: normal;
+font-weight: 800;
+line-height: 54.05px; /* 115% */
+align-self: stretch;
+}
+
+/* steps svgs & paths */
+.stepsSvg1{
+width: 574px;
+height: 348px;
+flex-shrink: 0;
+transform: translateX(-300px);
+}
+
+.stepsSvg2{
+  transform: translate(230px);
+}
+
+/* steps 234 container */
+.step{
+  display: flex;
+  flex-direction: row;
+  padding: 15px 136px;
+}
+
+.stepContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.stepHeading{
+  color: var(--Green, #6B8E23);
+/* text-align: center; */
+
+/* H1 MAIN LANDING PAGE */
+font-family: "Darker Grotesque";
+font-size: 47px;
+font-style: normal;
+font-weight: 800;
+line-height: 54.05px; /* 115% */
+align-self: stretch;
 }

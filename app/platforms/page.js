@@ -108,6 +108,104 @@ export default function Platforms() {
           className={styles.navigation2}
         ></img>
       </div>
+      <div className={styles.clippedRectangle}></div>
+      <div className={styles.steps}>
+        <button className={styles.stepsBtn}>STEP 1</button>
+        <div className={styles.stepsMainContainer}>
+          <img
+            src="/stepsMain.png"
+            alt="steps main"
+            className={styles.stepsMain}
+          ></img>
+          <h1 className={styles.stepsMainHeading}>
+            FIND THE COORPORATE ENTIRTY/FARMER THAT MEETS YOUR REQUIREMENTS
+          </h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="580"
+            height="348"
+            viewBox="0 0 580 348"
+            fill="none"
+            className={styles.stepsSvg1}
+          >
+            <path
+              d="M576.663 0V122.17C579.131 148.268 569.418 158.668 501.581 157.957H79.569C10.8213 157.334 1.41354 168.093 3.19268 194.362V348"
+              stroke="#3C5A31"
+              stroke-width="5"
+              stroke-dasharray="5 5"
+              className={styles.stepsSvg1Path}
+            />
+          </svg>
+          {/* the div below is the same for steps 2,3,4 => create a component */}
+          <div className={styles.steps234Container}>
+            <div className={styles.step}>
+              <div className={styles.stepContent}>
+                <button className={styles.stepsBtn}>STEP 2</button>
+                <h1 className={styles.stepHeading}>
+                  SEND IMAGES OF YOUR CROP/ SEE THE QUALITY SHOWN
+                </h1>
+              </div>
+
+              <img src="/steps3.svg"></img>
+
+            </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="179"
+                viewBox="0 0 8 179"
+              fill="none"
+              className={styles.stepsSvg2}
+              >
+                <path
+                  d="M4.99882 0V62.8404C5.00742 76.2644 4.97358 81.6137 4.73722 81.2482H3.26679C3.02725 80.9274 2.99447 86.4615 3.00067 99.9734V179"
+                  stroke="#3C5A31"
+                  stroke-width="5"
+                  stroke-dasharray="5 5"
+                />
+              </svg>
+            <div className={styles.step}>
+              <div className={styles.stepContent}>
+                <button className={styles.stepsBtn}>STEP 3</button>
+                <h1 className={styles.stepHeading}>
+                  CONTACT FARMER / ENTITY (YOU MAY REFER OUR RESOURCES FOR
+                  UNDERSTANDING)
+                </h1>
+              </div>
+
+              <img src="/steps4.png"></img>
+
+            </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="8"
+                height="179"
+                viewBox="0 0 8 179"
+                fill="none"
+                className={styles.stepsSvg2}
+              >
+                <path
+                  d="M4.99882 0V62.8404C5.00742 76.2644 4.97358 81.6137 4.73722 81.2482H3.26679C3.02725 80.9274 2.99447 86.4615 3.00067 99.9734V179"
+                  stroke="#3C5A31"
+                  stroke-width="5"
+                  stroke-dasharray="5 5"
+                />
+              </svg>
+            <div className={styles.step}>
+              <div className={styles.stepContent}>
+                <button className={styles.stepsBtn}>STEP 4</button>
+                <h1 className={styles.stepHeading}>
+                  SIGN CONTRACT AND TRACK ALL PAYMENTS. IF NOT MAINTAINED YOU
+                  MAY/MAY BE BLACKLISTED
+                </h1>
+              </div>
+
+              <img src="/steps5.png"></img>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
