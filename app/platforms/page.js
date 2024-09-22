@@ -3,6 +3,7 @@ import Link from "next/link"
 import Navbar from "../components/Navbar/Navbar"
 import "../globals.css"
 import styles from "./platforms.module.css"
+import OurSolutionsCard from "../components/platforms/OurSolutions/OurSolutionsCard"
 
 export default function Platforms() {
   return (
@@ -55,6 +56,57 @@ export default function Platforms() {
 
       <div className={styles.sponsorsImageContainer}>
         <img src="/sponsors.svg" className={styles.sponsorsImage}></img>
+      </div>
+
+      <div className={styles.ourSolutions}>
+        <div className={styles.ourSolutionsHeadingContainer}>
+          <h3 className={styles.ourSolutionsHeading1}>OUR SOLUTIONS</h3>
+          <h2 className={styles.ourSolutionsHeading2}>What do we provide?</h2>
+        </div>
+        <div className={styles.ourSolutionsCardContainer}>
+          <OurSolutionsCard
+            image="/we-provide-1.svg"
+            heading="Tiered Buyer Verification"
+            content="Tailored software solutions for precision farming, crop monitor, and yield prediction"
+          />
+          <OurSolutionsCard
+            image="/we-provide-2.svg"
+            heading="Smart analysis Dashboard"
+            content="Tailored software solutions for precision farming, crop monitor, and yield prediction"
+          />
+          <OurSolutionsCard
+            image="/we-provide-3.svg"
+            heading="Monitoring payment & Secure Transactions "
+            content="Tailored software solutions for precision farming, crop monitor, and yield prediction"
+          />
+        </div>
+      </div>
+
+      <div className={styles.navigation}>
+        <div className={styles.navigationHeadingContainer}>
+          <p className={styles.navigationHeading1}>NAVIGATION</p>
+          <h3 className={styles.navigationHeading2}>How it Works</h3>
+        </div>
+        <div className={styles.navigationContentContainer}>
+          <p className={styles.navigationContent}>
+            Our secure transactions dashboard provides real-time insights into
+            the status of your transactions with intuitive visual indicators and
+            AI-powered analytics. Easily monitor security levels, track trends,
+            and receive alerts to ensure your transactions are always protected
+          </p>
+        </div>
+      </div>
+      <div className={styles.navigationImages}>
+        <img
+          src="/navigation1.svg"
+          alt="navigation1"
+          className={styles.navigation1}
+        ></img>
+        <img
+          src="/navigation2.svg"
+          alt="navigation2"
+          className={styles.navigation2}
+        ></img>
       </div>
     </div>
   )
