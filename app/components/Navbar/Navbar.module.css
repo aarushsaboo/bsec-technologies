@@ -57,3 +57,7 @@
 .secondDiv li:last-child p{
   color: white;
 }
+
+@media screen and (max-width: 1360px){
+  /* pls tell how the hamburger icon is supposed to be placed*/
+}

@@ -1,0 +1,66 @@
+/* services */
+.services{
+  padding-top: 159px;
+  display: flex;
+  flex-direction: row;
+}
+
+.servicesImage{
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+.servicesContainer{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #6B8E23 45%, #A8890E 100%);
+  color: white;
+  padding: 17px 49px;
+
+}
+
+.servicesContainer2{
+  padding: 40px;
+}
+
+.servicesHeadingContainerP{
+  color: white;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.servicesHeadingContainerH3{
+  padding-bottom: 20px;
+  color: var(--Cream, #FAF3DD);
+  margin: 0;
+}
+
+.servicesPContainerP{
+  color: white;
+  margin: 0;
+  padding-bottom: 24.5px;
+}
+
+.servicesButtonContainer{
+  display: flex;
+  padding: 20px 0px 20px 20px;
+}
+
+.servicesButton1{
+  padding: 10px 20px;
+
+}
+
+.servicesLearnMoreButton{
+  padding: 16px 20px;
+}
+.servicesButton2{
+  color: var(--N4, #C8D1C8);
+  background: transparent;
+  border: none;
+}
+
+.servicesLearnMoreButton img{
+  padding-left: 10px;
+  transform: translateY(5px);
+}

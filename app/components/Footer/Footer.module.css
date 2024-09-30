@@ -1,0 +1,94 @@
+/* footer  */
+.footer{
+  background: var(--Green, #6B8E23);
+  
+}
+
+.footerPaddingContainer{
+  padding: 83px 160px 43px 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.footerH2{
+  color: var(--Cream, #FAF3DD);
+  /* h2 */
+font-family: "Darker Grotesque";
+font-size: 39px;
+font-style: normal;
+font-weight: 500;
+line-height: 44.85px; /* 115% */
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.footerButton{
+  color: var(--Green, #6B8E23);
+  margin: 10px 20px;
+  padding: 10px 20px;
+}
+
+.footerLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 828px;
+  padding-bottom: 43px;
+}
+
+/* to be replaced */
+.footerContent h2{
+  color: #FFF;
+/* BODY 1 */
+font-family: "Roboto Slab";
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: 35px; /* 152.174% */
+}
+
+.footerContentP{
+  color: #FFF;
+}
+
+.footerIcons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footerIcons img{
+  width: 25px;
+height: 25px;
+}
+
+@media screen and (max-width: 1450px){
+  .footerLinks{
+    gap: 50%;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .footerH2{
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .footerPaddingContainer{
+    padding: 83px 80px 43px 80px;
+  }
+  .footerLinks{
+    gap: 20%;
+  }
+  .footerH2{
+    font-size: 24px; /*change*/
+  }
+  .footerButton{
+    font-size: 12px;
+  }
+}

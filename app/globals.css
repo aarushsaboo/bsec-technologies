@@ -17,6 +17,11 @@
   --N5: rgb(221, 245, 224);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: "Darker Grotesque";
   /* font-size: 47px; */
@@ -44,7 +49,6 @@ h3{
   color: var(--Green, #00A86B);
   font-size: 33px;
   font-weight: 500;
-  line-height: 37.95px; /* 115% */
 }
 
 h4{
