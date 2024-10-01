@@ -5,6 +5,7 @@
 justify-content: center;
 align-items: center;
 padding-bottom: 30px;
+flex-wrap: wrap;
 }
 
 .blogsP1{
@@ -52,3 +53,8 @@ background: var(--N6, #FFF);
   padding-left: 22.5px;
 }
 
+@media screen and (max-width: 1178px) {
+  .blogCardContainer{
+    height: 760px;
+  }
+}

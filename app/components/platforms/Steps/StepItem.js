@@ -6,12 +6,11 @@ const StepItem = ({ stepButton, stepHeading, stepImage }) => {
       <div className={styles.step}>
         <div className={styles.stepContent}>
           <button className={styles.stepsBtn}>{stepButton}</button>
-          <h1 className={styles.stepHeading}>
-            {stepHeading}
-          </h1>
+          <h1 className={styles.stepHeading}>{stepHeading}</h1>
         </div>
-
-        <img src={stepImage}></img>
+        <div className={styles.stepItemImageContainer}>
+          <img src={stepImage}></img>
+        </div>
       </div>
     )
 };

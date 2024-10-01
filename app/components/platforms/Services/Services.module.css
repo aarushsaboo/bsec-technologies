@@ -64,3 +64,36 @@
   padding-left: 10px;
   transform: translateY(5px);
 }
+
+@media screen and (max-width: 1195px){
+  .servicesImage{
+    width: 100%;
+    max-width: 484px;
+  }
+  .servicesImage img{
+    width: 100%;
+    height: auto;
+    transform: translateY(100px);
+  }
+}
+
+@media screen and (max-width: 993px){
+  .services{
+  flex-wrap: wrap;
+  padding-top: 0;
+  }
+  .servicesImage{
+    display: block;
+    width: 100%;
+    height: 200px;
+    padding-bottom: 120px;
+  }
+  .servicesImage img{
+    transform: translateX( 200px);
+    height: 300px;
+    width: auto;
+  }
+  .servicesContainer{
+    clear: both;
+  }
+}

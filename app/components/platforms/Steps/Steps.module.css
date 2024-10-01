@@ -7,6 +7,7 @@
   margin-top: 0;
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .stepsBtn{
@@ -51,12 +52,19 @@ align-self: stretch;
 
 /* steps svgs & paths */
 .stepsSvg1{
-width: 574px;
-height: 348px;
-flex-shrink: 0;
+/* width: 574px;
+height: 348px; */
+ padding: 10px;
+ width: 29.89%;
+  /* max-width: 574px; */
+  height: auto;
 transform: translateX(-300px);
 }
 
+.stepsSvg1 svg{
+  width: 100%;
+  height: auto;
+}
 .stepsSvg2{
   transform: translate(230px);
 }
@@ -89,6 +97,43 @@ line-height: 54.05px; /* 115% */
 align-self: stretch;
 }
 
-.stepsMain{
+
+@media screen and (max-width: 1365px){
+  .stepsMainHeading, .stepHeading{
+    font-size: 32px;
+  }
+  .stepsSvg1{
+    transform: translateX(-230px);
+  }
+}
+
+@media screen and (max-width: 1307px){
+  /* step small guy*/
+.stepItemImageContainer{
+  width: 100%;
+  max-width: 570px;
+  min-width: 430px;
+}
+.stepItemImageContainer img{
+  width: 100%;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 1150px){
   
+  .stepsSvg1{
+    transform: translateX(-180px);
+  }
+  .stepItemImageContainer{
+  width: 100%;
+  max-width: 570px;
+  /* min-width: 430px; */
+  min-width: 235px;
+}
+
+.stepItemImageContainer img{
+  width: 100%;
+  height: auto;
+}
 }
