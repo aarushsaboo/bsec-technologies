@@ -26,7 +26,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.navbarLi}>
-            <Link href="/" style={{ textDecoration: "none" }}>
+            <Link href="/services" style={{ textDecoration: "none" }}>
               <p className={styles.navHeading2}>SERVICES</p>
             </Link>
           </li>

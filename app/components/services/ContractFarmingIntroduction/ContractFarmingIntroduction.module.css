@@ -1,0 +1,97 @@
+
+.contractFarmingIntroduction{
+    /* width: 100%; */
+    margin: 0;
+    padding: 0;
+}
+
+.gradientContainer{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(270deg, #6B8E23 56.39%, #A8890E 98.92%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 80%);
+}
+
+/* heading*/
+.servicesH1{
+    width: 400px;
+    transform: translate(271px, 170px);
+}
+.servicesH1 h1{
+    color: var(--Cream, #F3F3F3);
+    /* H1 MAIN LANDING PAGE */
+    font-family: "Darker Grotesque";
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54.05px; /* 115% */
+}
+
+/* navigation images */
+.navigationImages {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: visible;
+  /* transform: translateY(-300px); */
+  margin-top: -300px;
+}
+.navigation1 {
+  margin-left: calc(45%);
+  z-index: 3;
+}
+
+.navigation1 img{
+    width: 322px;
+    height: 340px;
+    flex-shrink: 0;
+}
+
+.navigation2 {
+  transform: translate(-100px, -190px);
+  z-index: 2;
+}
+
+.navigation2 img{
+    width: 497.048px;
+    height: 462.835px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .gradientContainer{
+    height: 800px;
+  }
+  .navigationImages {
+    margin-top: -300px;
+  }
+  .navigation1 {
+    z-index: 3;
+    margin-left: 300px;
+  }
+}
+
+@media screen and (max-width: 1133px){
+  .navigationImages{
+    display: flex;
+    flex: 1 1 200px;
+    width: 100%;
+    min-width: 200px;
+  }
+  .navigation1{
+    width: 100%;
+    transform: translate(50px, -50px);
+  }
+  .navigation2{
+    width: 100%;
+  }
+  .navigation1 img{
+    width: 80%;
+    height: auto;
+  }
+  .navigation2 img{
+    width: 100%;
+    height: auto;
+  }
+}

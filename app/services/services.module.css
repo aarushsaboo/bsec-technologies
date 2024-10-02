@@ -1,0 +1,31 @@
+.services{
+    /* width: 100vw; */
+    height: 100vh;
+    background: var(#EAEAEA);
+    margin: 0;
+    padding: 0;
+}
+
+.stepsCustom{
+    margin-top: -250px;
+    margin-bottom: 161px;
+}
+
+/* for all screen sizes greater than 1400px*/
+@media screen and (min-width: 1400px) {
+  .stepsSvg2Custom{
+    margin-top: -180px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .stepsSvg2Custom{
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 1133px) {
+  .stepsCustom{
+    margin-top: -180px !important;
+  }
+}

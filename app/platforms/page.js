@@ -12,6 +12,7 @@ import Introduction from "../components/platforms/Introduction/Introduction"
 import WhoWeAre from "../components/platforms/WhoWeAre/WhoWeAre"
 import Navigation from "../components/platforms/Navigation/Navigation"
 import OurSolutions from "../components/platforms/OurSolutions/OurSolutions"
+import { stepsPlatforms } from "../constants/steps"
 
 export default function Platforms() {
   return (
@@ -45,7 +46,7 @@ export default function Platforms() {
       </div>
 
       <div className={styles.clippedRectangle}></div>
-      <Steps />
+      <Steps stepsData={stepsPlatforms}/>
       <Services />
       <Testimonials />
       <Blogs />

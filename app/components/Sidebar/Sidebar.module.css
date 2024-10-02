@@ -1,0 +1,29 @@
+.sidebar{
+    width: 127.572px;
+height: 424px;
+flex-shrink: 0;
+background: var(--Green, #6B8E23);
+filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+position: fixed;
+top: 130px;
+}
+
+.sidebar1{
+    padding: 46px 29px 0 28px;
+}
+
+.sidebar2, .sidebar3{
+    padding: 0 28px 0 29px;
+}
+
+.sidebar4{
+    padding: 0 28px 126px 29px;
+}
+
+.sidebarCircle{
+    transform: translate(134px, -61px);
+}
+
+.sidebarCircle img:nth-of-type(2){
+    transform: translate(-50px, -5px);
+}
