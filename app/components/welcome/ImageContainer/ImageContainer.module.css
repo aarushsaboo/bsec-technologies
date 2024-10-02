@@ -1,0 +1,25 @@
+/* image container */
+
+.home1 {
+  position: absolute;
+  top: -50.1px;
+  left: 183.1px;
+  z-index: 1;
+}
+
+.home2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.home3 {
+  position: absolute;
+  bottom: 0;
+  left: 283px;
+}
+
+.home4 {
+  position: absolute;
+  left: 643.74px;
+  bottom: 0;
+}

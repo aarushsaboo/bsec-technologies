@@ -1,0 +1,114 @@
+.welcome{
+    background: linear-gradient(270deg, rgba(168, 137, 14, 0.90) 0%, rgba(109, 134, 58, 0.90) 36%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex: 1 1 570px;
+    justify-content: center;
+    position: relative;
+    /* opacity: 80%; */
+    z-index: 8;
+}
+
+.whiteContainer{
+    width: 570px;
+    height: 690px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--Cream, #F3F3F3);
+    box-shadow: 4px 4px 120px 10px rgba(0, 0, 0, 0.25);
+    margin-top: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer{
+    display: inline-flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 200px;
+    background: #FFF;
+    max-width: 149px;
+    transform: translateY(-60px);
+}
+
+/* input container */
+.inputContainer{
+    display: flex;
+    width: 456px;
+    height: 392px;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.inputContainer h3{
+    color: var(--Green, #6B8E23);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputContainer input{
+    height: 62px;
+    align-self: stretch;
+    border: 1px solid var(--slate-grey, #3C5A31);
+    background: #D9D9D9;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.inputContainer .login{
+    background: var(--Green, #6B8E23);
+    display: flex;
+    padding: 10px 100px;
+    align-items: center;
+    border: 1px solid var(--Green, #6B8E23); /* added extra */
+    color: white;
+    margin: 20px 0 10px 0;
+}
+
+.inputContainer .signup{
+    display: flex;
+    padding: 10px 94px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--Green, #6B8E23);
+    background: var(--Cream, #F3F3F3);
+    color: var(--Green, #6B8E23)
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width: 1015px){
+    .whiteContainer{
+        width: calc(40%);
+        height: auto;
+    }
+    .inputContainer{
+        align-items: center;
+    }
+    .inputContainer h3{
+        font-size: 30px;
+    }
+    .inputContainer input{
+        width: 30%;
+        padding-left: 100px;
+        align-self: auto;
+        height: 50px;
+    }
+    .inputContainer .login{
+        padding: 20px 100px;
+        margin: 0px 0 10px 0;
+    }
+
+    .inputContainer .signup{
+        padding: 20px 94px;
+        margin: 0px 0 10px 0;
+    }
+
+}

@@ -41,7 +41,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.navbarLi}>
-            <Link href="/" style={{ textDecoration: "none" }}>
+            <Link href="/welcome" style={{ textDecoration: "none" }}>
               <p className={styles.navHeading2}>Schedule a demo</p>
             </Link>
           </li>
