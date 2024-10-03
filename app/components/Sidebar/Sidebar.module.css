@@ -28,3 +28,15 @@ z-index: 1000;
 .sidebarCircle img:nth-of-type(2){
     transform: translate(-50px, -5px);
 }
+
+.sidebarEmail{
+    /* position: absolute; */
+}
+
+.sidebarEmail img:nth-of-type(1){
+    transform: translate(90.7vw,18.4vh);
+}
+
+.sidebarEmail img:nth-of-type(2){
+    transform: translate(92.3vw,8.7vh);
+}

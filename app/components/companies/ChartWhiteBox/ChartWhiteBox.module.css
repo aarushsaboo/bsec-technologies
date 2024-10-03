@@ -1,0 +1,47 @@
+.chartWhiteBox{
+    height: 161px;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.seperator{
+    width: 1px;
+    height: 87px;
+    background: #F0F0F0;
+    /* position: relative;
+    transform: translate(50px, 50px); */
+    position: absolute;
+    left: 566px;
+    transform: translateY(30px);
+}
+.seperator2{
+    width: 1px;
+    height: 87px;
+    background: #F0F0F0;
+    position: absolute;
+    left: 867px;
+    transform: translateY(30px);
+}
+
+@media screen and (max-width: 1400px){
+    .chartWhiteBox{
+        height: 322px;
+    }
+    .seperator2{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1122px){
+    .chartWhiteBox{
+        height: 483px;
+    }
+    .seperator, .seperator2{
+        display: none;
+    }
+}

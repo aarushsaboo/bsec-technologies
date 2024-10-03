@@ -1,0 +1,14 @@
+.pendingPayments{
+    margin-top: 94px;
+}
+
+.pendingPayments h2{
+    color: var(--Green, #6B8E23);
+    font-family: "Darker Grotesque";
+    font-size: 39px;
+}
+
+.companiesContainer{
+    display: flex;
+    flex-direction: column;
+}

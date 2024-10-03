@@ -1,0 +1,66 @@
+
+.company{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    max-width: 1151px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* company details */
+.companyDetails{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+    width: 798px;
+}
+
+.companyIcon{
+    background: var(--slate-grey, #3C5A31);
+    width: 105px;
+    height: 85px;
+}
+
+.companyName{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.companyName p{
+    color: #36472D;
+font-family: "Roboto Slab";
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: 35px; /* 152.174% */
+}
+
+/* options */
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.imageContainer{
+    padding: 10px 20px;
+}
+@media screen and (max-width: 1400px){
+    .company{
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 1128px){
+    .options{
+        padding-left: 0;
+    }
+}

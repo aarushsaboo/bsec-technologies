@@ -1,0 +1,55 @@
+.menu{
+    /* width: 1000px; */
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.payments, .deliveries, .ongoingContracts{
+    border-radius: 5px;
+    border: none;
+    background: var(--Green, #6B8E23);
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: "Roboto Slab";
+    font-size: 23px;
+    font-style: normal;
+    line-height: 35px; 
+}
+
+.search{
+    display: flex;
+    padding: 10px 140px 10px 20px;
+    height: 55px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 3px solid var(--Green, #6B8E23);
+    background: var(--N5, #EAEAEA);
+    margin-left: 180px;
+}
+
+@media screen and (max-width: 1450px){
+    .search{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1271px){
+    .menu ul li:nth-of-type(4){
+        min-width: 100%;
+        
+    }
+    .search{
+        margin-left: 0;
+    }
+}

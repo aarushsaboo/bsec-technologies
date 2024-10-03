@@ -31,7 +31,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={styles.navbarLi}>
-            <Link href="/" style={{ textDecoration: "none" }}>
+            <Link href="/companies" style={{ textDecoration: "none" }}>
               <p className={styles.navHeading2}>COMPANY</p>
             </Link>
           </li>

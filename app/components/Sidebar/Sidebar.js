@@ -36,8 +36,12 @@ const Sidebar = () => {
           </li>
         </ul>
         <div className={styles.sidebarCircle}>
-                <img src="/sidebar_circle.svg"></img>
-                <img src="/sidebar5.svg"></img>
+          <img src="/sidebar_circle.svg"></img>
+          <img src="/sidebar5.svg"></img>
+        </div>
+        <div className={styles.sidebarEmail}>
+          <img src="/sidebar_circle2.svg"></img>
+          <img src="/sidebar6.png"></img>
         </div>
       </div>
     )
