@@ -24,8 +24,8 @@ const Steps = ({stepsData, customClassName, customClassName2}) => {
               <path
                 d={stepsData[0].svgPath}
                 stroke="#3C5A31"
-                stroke-width="5"
-                stroke-dasharray="5 5"
+                strokeWidth="5"
+                strokeDasharray="5 5"
               />
             </svg>
           </div>

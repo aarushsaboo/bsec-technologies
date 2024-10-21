@@ -115,16 +115,16 @@ const SVGIcon = ({ type, ...props }) => {
         <path
           d="M10.7021 17L10.7021 5"
           stroke="#A8890E"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.48315 10.0001L10.7022 4.16675L16.9212 10.0001"
           stroke="#A8890E"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     ),
@@ -140,16 +140,16 @@ const SVGIcon = ({ type, ...props }) => {
         <path
           d="M10.7932 3L10.7932 15"
           stroke="#3C5A31"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M17.0122 9.99992L10.7932 15.8333L4.57419 9.99992"
           stroke="#3C5A31"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     ),
