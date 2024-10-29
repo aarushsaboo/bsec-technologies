@@ -13,7 +13,7 @@ const Companies = () => {
 
   useEffect(() => {
     const fetchCompanies = async () => {
-      const res = await fetch("http://localhost/bsec-backend/index.php");
+      const res = await fetch("http://localhost/bsec-backend/bsec-technologies-api/index.php");
       const data = await res.json();
       setCompanies(data);
     };

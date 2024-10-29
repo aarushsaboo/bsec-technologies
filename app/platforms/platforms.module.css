@@ -57,7 +57,7 @@
   background: linear-gradient(to right, rgb(99, 145, 48), rgb(162, 139, 38));
   z-index: -999;
   position: absolute;
-  /* transform: translateY(-173vh); */
+  transform: translateY(33vh);
   top: 1730px;
 }
 

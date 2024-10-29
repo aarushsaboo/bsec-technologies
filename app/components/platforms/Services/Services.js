@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 import styles from './Services.module.css'
 
 const Services = () => {
@@ -27,13 +27,17 @@ const Services = () => {
               </p>
             </div>
             <div className={styles.servicesButtonContainer}>
-              <button className={`p-xsmall ${styles.servicesButton1}`}>
-                Schedule a demo
-              </button>
-              <div className={styles.servicesLearnMoreButton}>
-                <button className={`p-xsmall ${styles.servicesButton2}`}>
-                  Learn more
+              <Link href="/welcome">
+                <button className={`p-xsmall ${styles.servicesButton1}`}>
+                  Schedule a demo
                 </button>
+              </Link>
+              <div className={styles.servicesLearnMoreButton}>
+                <Link href="/services">
+                  <button className={`p-xsmall ${styles.servicesButton2}`}>
+                    Learn more
+                  </button>
+                </Link>
                 <img src="/servicesRightArrow.svg"></img>
               </div>
             </div>

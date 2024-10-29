@@ -1,4 +1,4 @@
-import React from 'react';
+import Link from 'next/link';
 import styles from './Introduction.module.css'
 
 const Introduction = () => {
@@ -24,8 +24,12 @@ const Introduction = () => {
               Empowering farmers with trusted partnerships
             </h3>
             <div className={styles.buttonContainer}>
-              <button className={styles.button1}>Login</button>
-              <button className={styles.button2}>Sign Up</button>
+              <Link href="/welcome">
+                <button className={styles.button1}>Login</button>
+              </Link>
+              <Link href="/welcome">
+                <button className={styles.button2}>Sign Up</button>
+              </Link>
             </div>
           </div>
         </div>

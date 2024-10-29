@@ -1,16 +1,16 @@
-import React from 'react';
+import Link from 'next/link';
 import styles from './Footer.module.css'
 
 const Footer = ({question}) => {
     return (
       <div className={styles.footer}>
         <div className={styles.footerPaddingContainer}>
-          <h2 className={styles.footerH2}>
-            {question}
-          </h2>
-          <button className={`p-xsmall ${styles.footerButton}`}>
-            Talk to Us
-          </button>
+          <h2 className={styles.footerH2}>{question}</h2>
+          <Link href="/welcome">
+            <button className={`p-xsmall ${styles.footerButton}`}>
+              Talk to Us
+            </button>
+          </Link>
         </div>
         <div className={styles.footerLinks}>
           <div className={styles.footerContent}>
