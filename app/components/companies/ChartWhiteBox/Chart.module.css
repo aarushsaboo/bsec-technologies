@@ -1,0 +1,45 @@
+
+.chartContainer {
+    width: 100%;
+    height: 400px;
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom tooltip styles */
+.customTooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tooltipLabel {
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.tooltipData {
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Chart company colors */
+.ubonaLine {
+    color: #8884d8;
+}
+
+.wolfXLine {
+    color: #82ca9d;
+}
+
+.lyondellLine {
+    color: #ffc658;
+}

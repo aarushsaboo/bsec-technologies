@@ -9,25 +9,37 @@ import { useState, useEffect } from "react"
 import styles from "./companies.module.css"
 
 const Companies = () => {
-  const [companies, setCompanies] = useState([]);
+    const [data, setData] = useState({
+      companies: [],
+      monthlyData: [],
+      metrics: {},
+    })
 
-  useEffect(() => {
-    const fetchCompanies = async () => {
-      const res = await fetch("http://localhost/bsec-backend/bsec-technologies-api/index.php");
-      const data = await res.json();
-      setCompanies(data);
-    };
+    useEffect(() => {
+      const fetchData = async () => {
+        const res = await fetch(
+          "http://localhost/bsec-api/bsec-technologies-api/index.php?action=all"
+        )
+        const jsonData = await res.json()
+        setData(jsonData)
+      }
 
-    fetchCompanies();
-  }, []);
+      fetchData()
+    }, [])
+  
+  console.log(data)
+
   return (
     <div className={styles.companiesContainer}>
       <div className={styles.companies}>
         <Menu />
         <div className={styles.chart}>
-          <ChartWhiteBox />
+          <ChartWhiteBox
+            monthlyData={data.monthlyData}
+            metrics={data.metrics}
+          />
         </div>
-        <PendingPayments companies={companies}/>
+        <PendingPayments companies={data.companies} />
       </div>
       <Sidebar />
     </div>
