@@ -11,7 +11,11 @@ export default function Home() {
         <Navbar />
       </div>
       <div className={styles.home1}>
-        <img src="/home1.svg" alt="text_to_describe_your_image"></img>
+        <picture>
+          <source srcSet="/images/photo.webp" type="image/webp" />
+          <img src="/home1.svg" alt="text_to_describe_your_image" />
+        </picture>
+
       </div>
       <div className={styles.home2}>
         <img src="/home2.svg" alt="text_to_describe_your_image"></img>
