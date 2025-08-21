@@ -5,7 +5,7 @@ const Services = () => {
     return (
       <div className={styles.services}>
         <div className={styles.servicesImage}>
-          <img src="/services1.png"></img>
+          <img src="/services1.png" alt="text_to_describe_your_image"></img>
         </div>
         <div className={styles.servicesContainer}>
           <div className={styles.servicesContainer2}>
@@ -38,7 +38,7 @@ const Services = () => {
                     Learn more
                   </button>
                 </Link>
-                <img src="/servicesRightArrow.svg"></img>
+                <img src="/servicesRightArrow.svg" alt="text_to_describe_your_image"></img>
               </div>
             </div>
           </div>

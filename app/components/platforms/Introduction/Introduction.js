@@ -5,16 +5,16 @@ const Introduction = () => {
     return (
       <div className={styles.introduction}>
         <div className={styles.platforms1}>
-          <img src="/platforms1.svg"></img>
+          <img src="/platforms1.svg" alt="text_to_describe_your_image"></img>
         </div>
         <div className={styles.platforms2}>
-          <img src="/platforms2.svg"></img>
+          <img src="/platforms2.svg" alt="text_to_describe_your_image"></img>
         </div>
         <div className={styles.platforms3}>
-          <img src="/platforms3.svg"></img>
+          <img src="/platforms3.svg" alt="text_to_describe_your_image"></img>
         </div>
         <div className={styles.platforms4}>
-          <img src="/platforms4.svg"></img>
+          <img src="/platforms4.svg" alt="text_to_describe_your_image"></img>
         </div>
         <div className={styles.flexContainer}>
           <div className={styles.enhancedGradientContainer}></div>

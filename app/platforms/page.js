@@ -27,7 +27,7 @@ export default function Platforms() {
       <WhoWeAre />
 
       <div className={styles.sponsorsImageContainer}>
-        <img src="/sponsors.svg" className={styles.sponsorsImage}></img>
+        <img src="/sponsors.svg" className={styles.sponsorsImage} alt="text_to_describe_your_image"></img>
       </div>
 
       <OurSolutions />

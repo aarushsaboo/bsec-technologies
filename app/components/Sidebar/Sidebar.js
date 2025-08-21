@@ -9,38 +9,38 @@ const Sidebar = () => {
           <li>
             <Link href="/" style={{ textDecoration: "none" }}>
               <div className={styles.sidebar1}>
-                <img src="/sidebar1.svg"></img>
+                <img src="/sidebar1.svg" alt="text_to_describe_your_image"></img>
               </div>
             </Link>
           </li>
           <li>
             <Link href="/" style={{ textDecoration: "none" }}>
               <div className={styles.sidebar2}>
-                <img src="/sidebar2.svg"></img>
+                <img src="/sidebar2.svg" alt="text_to_describe_your_image"></img>
               </div>
             </Link>
           </li>
           <li>
             <Link href="/" style={{ textDecoration: "none" }}>
               <div className={styles.sidebar3}>
-                <img src="/sidebar3.svg"></img>
+                <img src="/sidebar3.svg" alt="text_to_describe_your_image"></img>
               </div>
             </Link>
           </li>
           <li>
             <Link href="/" style={{ textDecoration: "none" }}>
               <div className={styles.sidebar4}>
-                <img src="/sidebar4.svg"></img>
+                <img src="/sidebar4.svg" alt="text_to_describe_your_image"></img>
               </div>
             </Link>
           </li>
         </ul>
         <div className={styles.sidebarCircle}>
-          <img src="/sidebar_circle.svg"></img>
+          <img src="/sidebar_circle.svg" alt="text_to_describe_your_image"></img>
           <img src="/sidebar5.svg"></img>
         </div>
         <div className={styles.sidebarEmail}>
-          <img src="/sidebar_circle2.svg"></img>
+          <img src="/sidebar_circle2.svg" alt="text_to_describe_your_image"></img>
           <img src="/sidebar6.png"></img>
         </div>
       </div>

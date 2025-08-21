@@ -14,7 +14,7 @@ const Testimonials = () => {
         </p>
         <div className={styles.testimonialsContactCard}>
           <div className={styles.testimonialsContactCardImage}>
-            <img src="/testimonials2.svg"></img>
+            <img src="/testimonials2.svg" alt="text_to_describe_your_image"></img>
           </div>
           <div className={styles.testimonialsContactCardInfo}>
             <p>Micheal Johnson</p>
@@ -22,7 +22,7 @@ const Testimonials = () => {
           </div>
         </div>
         <div className={styles.testimonialsSvgContainer}>
-          <img src="/testimonials1.svg"></img>
+          <img src="/testimonials1.svg" alt="text_to_describe_your_image"></img>
         </div>
       </div>
     )

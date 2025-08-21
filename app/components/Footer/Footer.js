@@ -20,9 +20,9 @@ const Footer = ({question}) => {
             </p>
           </div>
           <div className={styles.footerIcons}>
-            <img src="/footerFacebook.svg"></img>
-            <img src="/footerTwitter.svg"></img>
-            <img src="/footerLinkedin.svg"></img>
+            <img src="/footerFacebook.svg" alt="text_to_describe_your_image"></img>
+            <img src="/footerTwitter.svg" alt="text_to_describe_your_image"></img>
+            <img src="/footerLinkedin.svg" alt="text_to_describe_your_image"></img>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ const StepItem = ({ stepButton, stepHeading, stepImage }) => {
           <h1 className={styles.stepHeading}>{stepHeading}</h1>
         </div>
         <div className={styles.stepItemImageContainer}>
-          <img src={stepImage}></img>
+          <img src={stepImage} alt="text_to_describe_your_image"></img>
         </div>
       </div>
     )
