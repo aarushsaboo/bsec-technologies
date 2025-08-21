@@ -10,7 +10,12 @@ const Navbar = () => {
         <div className={styles.firstDiv}>
           <li className={styles.navbarLi}>
             <Link href="/" style={{ textDecoration: "none" }}>
-              <p className={styles.navHeading}>BSec Technologies</p>
+              {/* Added basic organization microdata here */}
+              <div itemScope itemType="http://schema.org/Organization">
+                <p className={styles.navHeading} itemProp="name">
+                  BSec Technologies
+                </p>
+              </div>
             </Link>
           </li>
         </div>
