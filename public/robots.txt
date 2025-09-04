@@ -1,4 +1,11 @@
 User-agent: *
 Disallow: /cgi-bin/
-Disallow: /images/
-Disallow: /pages/thankyou.html
+Disallow: /private-data/
+
+# Reference to your sitemap
+Sitemap: https://bsec-technologies.vercel.app/sitemap.xml
+
+# Robots.txt tells crawlers what they’re allowed to look at (not IPs, but paths like /services, /api, etc.) and where the sitemap is.
+
+# robots.txt is only a guideline, not a lock. Good bots like Googlebot will respect it, but malicious bots can ignore it.
+# If you want to truly block access, you need authentication, firewalls, or server rules — not just robots.txt.
